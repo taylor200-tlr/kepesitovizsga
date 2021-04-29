@@ -33,10 +33,10 @@ class JurassicParkTest {
     }
 
 
-//    @Test
-//    void test_check() {
-//        assertEquals(List.of("Hypsilophodontida", "Maiasaurus", "Velociraptor"), jurassicPark.checkOverpopulation());
-//    }
+    @Test
+    void test_check() {
+        assertEquals(List.of("Hypsilophodontida", "Maiasaurus", "Velociraptor"), jurassicPark.checkOverpopulation());
+    }
 
 
 }
