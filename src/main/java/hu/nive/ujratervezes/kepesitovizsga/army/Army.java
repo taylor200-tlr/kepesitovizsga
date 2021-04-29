@@ -26,7 +26,7 @@ public class Army {
         List<MilitaryUnit> deadUnit = new ArrayList<>();
         for (MilitaryUnit actual : army) {
             actual.sufferDamage(i);
-            if (actual.getHitPoints() < 1) {
+            if (actual.getHitPoints() < 25) {
                 deadUnit.add(actual);
             }
         }
